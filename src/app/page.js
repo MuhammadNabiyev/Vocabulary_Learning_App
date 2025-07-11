@@ -39,6 +39,8 @@ export default function VocabularyApp() {
     pronunciation: true,
   });
   const [direction, setDirection] = useState(0);
+  const [alwaysShowTooltips, setAlwaysShowTooltips] = useState(false);
+  const [keyboardSelectedIndex, setKeyboardSelectedIndex] = useState(null);
 
   const swipeHandlers = useSwipeable({
     onSwipedLeft: () => {
@@ -83,7 +85,6 @@ export default function VocabularyApp() {
       if (defaultVoice) setSelectedVoice(defaultVoice.name);
     };
 
-    // Check if speech synthesis is available
     if ("speechSynthesis" in window) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
       loadVoices();
@@ -143,6 +144,10 @@ export default function VocabularyApp() {
     setIsSortOrder(sortOrder);
     setFilteredVocabulary(result);
   }, [vocabulary, searchTerm, searchField, filterType, sortOrder]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filterType]);
 
   const totalPages = Math.ceil(filteredVocabulary.length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -258,6 +263,126 @@ export default function VocabularyApp() {
       });
     }
   };
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowLeft" && currentPage > 1) {
+        setDirection(-1);
+        paginate(currentPage - 1);
+      } else if (e.key === "ArrowRight" && currentPage < totalPages) {
+        setDirection(1);
+        paginate(currentPage + 1);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [currentPage, totalPages]);
+
+  useEffect(() => {
+    const handleNumberKeyPress = (e) => {
+      const key = e.key;
+
+      if (key === "0") {
+        if (currentItems.length >= 10) {
+          const wordToSpeak = currentItems[9].word;
+          speakText(wordToSpeak);
+        }
+        return;
+      }
+
+      if (/^[1-9]$/.test(key)) {
+        const number = parseInt(key);
+        if (number <= currentItems.length) {
+          const wordToSpeak = currentItems[number - 1].word;
+          speakText(wordToSpeak);
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleNumberKeyPress);
+    return () => {
+      window.removeEventListener("keydown", handleNumberKeyPress);
+    };
+  }, [currentItems]);
+
+  useEffect(() => {
+    const handleKeyPress = (e) => {
+      const keyMap = {
+        q: 1,
+        w: 2,
+        e: 3,
+        r: 4,
+        t: 5,
+        y: 6,
+        u: 7,
+        i: 8,
+        o: 9,
+        p: 10,
+      };
+
+      if (e.key === " ") {
+        e.preventDefault();
+        setKeyboardSelectedIndex(null);
+        return;
+      }
+
+      if (e.key == "z") {
+        toggleSection("word");
+        return;
+      } else if (e.key == "x") {
+        toggleSection("meaning");
+        return;
+      } else if (e.key == "c") {
+        toggleSection("pronunciation");
+        return;
+      }
+
+      if (keyMap[e.key] && keyMap[e.key] <= currentItems.length) {
+        const index = keyMap[e.key] - 1;
+        console.log(index);
+        console.log(keyboardSelectedIndex);
+        if (index == keyboardSelectedIndex) {
+          setKeyboardSelectedIndex(-1);
+        } else {
+          setKeyboardSelectedIndex(index);
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [currentItems]);
+
+  useEffect(() => {
+    const handleCtrlNumberKeyPress = (e) => {
+      if (e.ctrlKey) {
+        let index = -1;
+
+        if (/^[1-9]$/.test(e.key)) {
+          index = parseInt(e.key) - 1;
+        } else if (e.key === "0") {
+          index = 9;
+        }
+
+        if (index !== -1 && index < currentItems.length) {
+          const word = currentItems[index].word;
+          toggleLearnedStatus(word);
+        }
+
+        e.preventDefault();
+      }
+    };
+
+    window.addEventListener("keydown", handleCtrlNumberKeyPress);
+    return () => {
+      window.removeEventListener("keydown", handleCtrlNumberKeyPress);
+    };
+  }, [currentItems, toggleLearnedStatus]);
 
   const pageVariants = {
     enter: (direction) => ({
@@ -525,7 +650,11 @@ export default function VocabularyApp() {
                     {currentItems.map((item, index) => (
                       <div
                         key={item.word + index}
-                        className="grid grid-cols-12 p-2 sm:p-3 md:p-4 border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-xs sm:text-sm"
+                        className={`grid grid-cols-12 p-2 sm:p-3 md:p-4 border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-xs sm:text-sm ${
+                          keyboardSelectedIndex === index
+                            ? "bg-blue-50 dark:bg-blue-900/30"
+                            : ""
+                        }`}
                       >
                         <div className="col-span-5 sm:col-span-4 md:col-span-3 font-medium flex items-center gap-1 sm:gap-2">
                           <button
@@ -553,7 +682,9 @@ export default function VocabularyApp() {
                                   size={20}
                                 />
                                 {(activeTooltip === `word-${index}` ||
-                                  isHovered[`word-${index}`]) && (
+                                  isHovered[`word-${index}`] ||
+                                  keyboardSelectedIndex === index ||
+                                  alwaysShowTooltips) && (
                                   <div className="absolute z-10 bg-gray-800 text-white text-base rounded py-1 px-2 bottom-full mb-1 whitespace-nowrap">
                                     {item.word}
                                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-l-transparent border-r-transparent border-b-gray-800"></div>
@@ -598,7 +729,9 @@ export default function VocabularyApp() {
                                   size={20}
                                 />
                                 {(activeTooltip === `meaning-${index}` ||
-                                  isHovered[`meaning-${index}`]) && (
+                                  isHovered[`meaning-${index}`] ||
+                                  keyboardSelectedIndex === index ||
+                                  alwaysShowTooltips) && (
                                   <div className="absolute z-10 bg-gray-800 text-white text-base rounded py-1 px-2 bottom-full mb-1 whitespace-nowrap">
                                     {item.meaning}
                                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-l-transparent border-r-transparent border-b-gray-800"></div>
@@ -637,7 +770,9 @@ export default function VocabularyApp() {
                                   size={20}
                                 />
                                 {(activeTooltip === `pronunciation-${index}` ||
-                                  isHovered[`pronunciation-${index}`]) && (
+                                  isHovered[`pronunciation-${index}`] ||
+                                  keyboardSelectedIndex === index ||
+                                  alwaysShowTooltips) && (
                                   <div className="absolute z-10 bg-gray-800 text-white text-base rounded py-1 px-2 bottom-full mb-1 whitespace-nowrap">
                                     {item.pronunciation}
                                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-l-transparent border-r-transparent border-b-gray-800"></div>
