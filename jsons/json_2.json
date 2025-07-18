@@ -1,0 +1,1310 @@
+[
+  {
+    "word": "adventure",
+    "pronunciation": "[ədˈventʃər]",
+    "meaning": "macəra",
+    "isLearn": true
+  },
+  {
+    "word": "balance",
+    "pronunciation": "[ˈbæləns]",
+    "meaning": "balans",
+    "isLearn": true
+  },
+  {
+    "word": "celebrate",
+    "pronunciation": "[ˈselɪbreɪt]",
+    "meaning": "qeyd etmək (bayram)",
+    "isLearn": true
+  },
+  {
+    "word": "delicious",
+    "pronunciation": "[dɪˈlɪʃəs]",
+    "meaning": "ləzzətli",
+    "isLearn": true
+  },
+  {
+    "word": "effort",
+    "pronunciation": "[ˈefərt]",
+    "meaning": "səy",
+    "isLearn": true
+  },
+  {
+    "word": "freedom",
+    "pronunciation": "[ˈfriːdəm]",
+    "meaning": "azadlıq",
+    "isLearn": true
+  },
+  {
+    "word": "grateful",
+    "pronunciation": "[ˈɡreɪtfəl]",
+    "meaning": "minnətdar",
+    "isLearn": true
+  },
+  {
+    "word": "honest",
+    "pronunciation": "[ˈɒnɪst]",
+    "meaning": "dürüst",
+    "isLearn": true
+  },
+  {
+    "word": "imagine",
+    "pronunciation": "[ɪˈmædʒɪn]",
+    "meaning": "təsəvvür etmək",
+    "isLearn": true
+  },
+  {
+    "word": "journey",
+    "pronunciation": "[ˈdʒɜːni]",
+    "meaning": "səyahət",
+    "isLearn": true
+  },
+  {
+    "word": "kindness",
+    "pronunciation": "[ˈkaɪndnəs]",
+    "meaning": "mehribanlıq",
+    "isLearn": true
+  },
+  {
+    "word": "laughter",
+    "pronunciation": "[ˈlɑːftər]",
+    "meaning": "gülüş",
+    "isLearn": true
+  },
+  {
+    "word": "melody",
+    "pronunciation": "[ˈmelədi]",
+    "meaning": "melodiya",
+    "isLearn": true
+  },
+  {
+    "word": "neighbor",
+    "pronunciation": "[ˈneɪbər]",
+    "meaning": "qonşu",
+    "isLearn": true
+  },
+  {
+    "word": "opportunity",
+    "pronunciation": "[ˌɒpəˈtjuːnəti]",
+    "meaning": "fürsət",
+    "isLearn": true
+  },
+  {
+    "word": "patient",
+    "pronunciation": "[ˈpeɪʃənt]",
+    "meaning": "səbirli",
+    "isLearn": true
+  },
+  {
+    "word": "quality",
+    "pronunciation": "[ˈkwɒləti]",
+    "meaning": "keyfiyyət",
+    "isLearn": true
+  },
+  {
+    "word": "respect",
+    "pronunciation": "[rɪˈspekt]",
+    "meaning": "hörmət",
+    "isLearn": true
+  },
+  {
+    "word": "sunset",
+    "pronunciation": "[ˈsʌnset]",
+    "meaning": "gün batımı",
+    "isLearn": true
+  },
+  {
+    "word": "trust",
+    "pronunciation": "[trʌst]",
+    "meaning": "güvən",
+    "isLearn": true
+  },
+  {
+    "word": "umbrella",
+    "pronunciation": "[ʌmˈbrelə]",
+    "meaning": "çətir",
+    "isLearn": true
+  },
+  {
+    "word": "victory",
+    "pronunciation": "[ˈvɪktəri]",
+    "meaning": "qələbə",
+    "isLearn": true
+  },
+  {
+    "word": "wonder",
+    "pronunciation": "[ˈwʌndər]",
+    "meaning": "möcüzə",
+    "isLearn": true
+  },
+  {
+    "word": "youth",
+    "pronunciation": "[juːθ]",
+    "meaning": "gənclik",
+    "isLearn": true
+  },
+  {
+    "word": "zeal",
+    "pronunciation": "[ziːl]",
+    "meaning": "həvəs",
+    "isLearn": true
+  },
+  {
+    "word": "airport",
+    "pronunciation": "[ˈeəpɔːt]",
+    "meaning": "hava limanı",
+    "isLearn": true
+  },
+  {
+    "word": "bakery",
+    "pronunciation": "[ˈbeɪkəri]",
+    "meaning": "çörək sexi",
+    "isLearn": true
+  },
+  {
+    "word": "candle",
+    "pronunciation": "[ˈkændl]",
+    "meaning": "şam",
+    "isLearn": true
+  },
+  {
+    "word": "diamond",
+    "pronunciation": "[ˈdaɪəmənd]",
+    "meaning": "almaz",
+    "isLearn": true
+  },
+  {
+    "word": "electricity",
+    "pronunciation": "[ɪˌlekˈtrɪsəti]",
+    "meaning": "elektrik",
+    "isLearn": true
+  },
+  {
+    "word": "fireplace",
+    "pronunciation": "[ˈfaɪəpleɪs]",
+    "meaning": "şömine",
+    "isLearn": true
+  },
+  {
+    "word": "garden",
+    "pronunciation": "[ˈɡɑːdn]",
+    "meaning": "bağ",
+    "isLearn": true
+  },
+  {
+    "word": "hospital",
+    "pronunciation": "[ˈhɒspɪtl]",
+    "meaning": "xəstəxana",
+    "isLearn": true
+  },
+  {
+    "word": "jacket",
+    "pronunciation": "[ˈdʒækɪt]",
+    "meaning": "kurtka",
+    "isLearn": true
+  },
+  {
+    "word": "kitchen",
+    "pronunciation": "[ˈkɪtʃɪn]",
+    "meaning": "mətbəx",
+    "isLearn": true
+  },
+  {
+    "word": "library",
+    "pronunciation": "[ˈlaɪbrəri]",
+    "meaning": "kitabxana",
+    "isLearn": true
+  },
+  {
+    "word": "mountain",
+    "pronunciation": "[ˈmaʊntən]",
+    "meaning": "dağ",
+    "isLearn": true
+  },
+  {
+    "word": "notebook",
+    "pronunciation": "[ˈnəʊtbʊk]",
+    "meaning": "dəftər",
+    "isLearn": true
+  },
+  {
+    "word": "ocean",
+    "pronunciation": "[ˈəʊʃn]",
+    "meaning": "okean",
+    "isLearn": true
+  },
+  {
+    "word": "pencil",
+    "pronunciation": "[ˈpensl]",
+    "meaning": "qələm",
+    "isLearn": true
+  },
+  {
+    "word": "river",
+    "pronunciation": "[ˈrɪvər]",
+    "meaning": "çay",
+    "isLearn": true
+  },
+  {
+    "word": "school",
+    "pronunciation": "[skuːl]",
+    "meaning": "məktəb",
+    "isLearn": true
+  },
+  {
+    "word": "train",
+    "pronunciation": "[treɪn]",
+    "meaning": "qatar",
+    "isLearn": true
+  },
+  {
+    "word": "university",
+    "pronunciation": "[ˌjuːnɪˈvɜːsəti]",
+    "meaning": "universitet",
+    "isLearn": true
+  },
+  {
+    "word": "village",
+    "pronunciation": "[ˈvɪlɪdʒ]",
+    "meaning": "kənd",
+    "isLearn": true
+  },
+  {
+    "word": "window",
+    "pronunciation": "[ˈwɪndəʊ]",
+    "meaning": "pəncərə",
+    "isLearn": true
+  },
+  {
+    "word": "yellow",
+    "pronunciation": "[ˈjeləʊ]",
+    "meaning": "sarı",
+    "isLearn": true
+  },
+  {
+    "word": "zoo",
+    "pronunciation": "[zuː]",
+    "meaning": "zoopark",
+    "isLearn": true
+  },
+  {
+    "word": "apple",
+    "pronunciation": "[ˈæpl]",
+    "meaning": "alma",
+    "isLearn": true
+  },
+  {
+    "word": "banana",
+    "pronunciation": "[bəˈnɑːnə]",
+    "meaning": "banan",
+    "isLearn": true
+  },
+  {
+    "word": "carrot",
+    "pronunciation": "[ˈkærət]",
+    "meaning": "yerkökü",
+    "isLearn": true
+  },
+  {
+    "word": "dog",
+    "pronunciation": "[dɒɡ]",
+    "meaning": "it",
+    "isLearn": true
+  },
+  {
+    "word": "elephant",
+    "pronunciation": "[ˈelɪfənt]",
+    "meaning": "fil",
+    "isLearn": true
+  },
+  {
+    "word": "flower",
+    "pronunciation": "[ˈflaʊər]",
+    "meaning": "gül",
+    "isLearn": true
+  },
+  {
+    "word": "giraffe",
+    "pronunciation": "[dʒəˈrɑːf]",
+    "meaning": "zürafə",
+    "isLearn": true
+  },
+  {
+    "word": "house",
+    "pronunciation": "[haʊs]",
+    "meaning": "ev",
+    "isLearn": true
+  },
+  {
+    "word": "ice cream",
+    "pronunciation": "[ˈaɪs kriːm]",
+    "meaning": "dondurma",
+    "isLearn": true
+  },
+  {
+    "word": "juice",
+    "pronunciation": "[dʒuːs]",
+    "meaning": "şirə",
+    "isLearn": true
+  },
+  {
+    "word": "kangaroo",
+    "pronunciation": "[ˌkæŋɡəˈruː]",
+    "meaning": "kenguru",
+    "isLearn": true
+  },
+  {
+    "word": "lion",
+    "pronunciation": "[ˈlaɪən]",
+    "meaning": "şir",
+    "isLearn": true
+  },
+  {
+    "word": "monkey",
+    "pronunciation": "[ˈmʌŋki]",
+    "meaning": "meymun",
+    "isLearn": false
+  },
+  {
+    "word": "nest",
+    "pronunciation": "[nest]",
+    "meaning": "yuva",
+    "isLearn": false
+  },
+  {
+    "word": "orange",
+    "pronunciation": "[ˈɒrɪndʒ]",
+    "meaning": "portağal",
+    "isLearn": false
+  },
+  {
+    "word": "penguin",
+    "pronunciation": "[ˈpeŋɡwɪn]",
+    "meaning": "pinqvin",
+    "isLearn": false
+  },
+  {
+    "word": "rabbit",
+    "pronunciation": "[ˈræbɪt]",
+    "meaning": "dovşan",
+    "isLearn": false
+  },
+  {
+    "word": "sun",
+    "pronunciation": "[sʌn]",
+    "meaning": "günəş",
+    "isLearn": false
+  },
+  {
+    "word": "tiger",
+    "pronunciation": "[ˈtaɪɡər]",
+    "meaning": "pələng",
+    "isLearn": false
+  },
+  {
+    "word": "vegetable",
+    "pronunciation": "[ˈvedʒtəbl]",
+    "meaning": "tərəvəz",
+    "isLearn": false
+  },
+  {
+    "word": "water",
+    "pronunciation": "[ˈwɔːtər]",
+    "meaning": "su",
+    "isLearn": false
+  },
+  {
+    "word": "yogurt",
+    "pronunciation": "[ˈjɒɡət]",
+    "meaning": "yoğurt",
+    "isLearn": false
+  },
+  {
+    "word": "zebra",
+    "pronunciation": "[ˈzebrə]",
+    "meaning": "zebra",
+    "isLearn": false
+  },
+  {
+    "word": "actor",
+    "pronunciation": "[ˈæktər]",
+    "meaning": "aktyor",
+    "isLearn": false
+  },
+  {
+    "word": "baker",
+    "pronunciation": "[ˈbeɪkər]",
+    "meaning": "çörəkçi",
+    "isLearn": false
+  },
+  {
+    "word": "cook",
+    "pronunciation": "[kʊk]",
+    "meaning": "aşpaz",
+    "isLearn": false
+  },
+  {
+    "word": "doctor",
+    "pronunciation": "[ˈdɒktər]",
+    "meaning": "həkim",
+    "isLearn": false
+  },
+  {
+    "word": "engineer",
+    "pronunciation": "[ˌendʒɪˈnɪər]",
+    "meaning": "mühəndis",
+    "isLearn": false
+  },
+  {
+    "word": "farmer",
+    "pronunciation": "[ˈfɑːmər]",
+    "meaning": "fermer",
+    "isLearn": false
+  },
+  {
+    "word": "gardener",
+    "pronunciation": "[ˈɡɑːdnər]",
+    "meaning": "bağban",
+    "isLearn": false
+  },
+  {
+    "word": "hairdresser",
+    "pronunciation": "[ˈheədresər]",
+    "meaning": "bərbər",
+    "isLearn": false
+  },
+  {
+    "word": "inventor",
+    "pronunciation": "[ɪnˈventər]",
+    "meaning": "ixtiraçı",
+    "isLearn": false
+  },
+  {
+    "word": "judge",
+    "pronunciation": "[dʒʌdʒ]",
+    "meaning": "hakim",
+    "isLearn": false
+  },
+  {
+    "word": "lawyer",
+    "pronunciation": "[ˈlɔːjər]",
+    "meaning": "vəkil",
+    "isLearn": false
+  },
+  {
+    "word": "musician",
+    "pronunciation": "[mjuˈzɪʃn]",
+    "meaning": "musiqiçi",
+    "isLearn": false
+  },
+  {
+    "word": "nurse",
+    "pronunciation": "[nɜːs]",
+    "meaning": "hamişə",
+    "isLearn": false
+  },
+  {
+    "word": "pilot",
+    "pronunciation": "[ˈpaɪlət]",
+    "meaning": "pilot",
+    "isLearn": false
+  },
+  {
+    "word": "queen",
+    "pronunciation": "[kwiːn]",
+    "meaning": "kraliça",
+    "isLearn": false
+  },
+  {
+    "word": "reporter",
+    "pronunciation": "[rɪˈpɔːtər]",
+    "meaning": "müxbir",
+    "isLearn": false
+  },
+  {
+    "word": "singer",
+    "pronunciation": "[ˈsɪŋər]",
+    "meaning": "müğənni",
+    "isLearn": false
+  },
+  {
+    "word": "teacher",
+    "pronunciation": "[ˈtiːtʃər]",
+    "meaning": "müəllim",
+    "isLearn": false
+  },
+  {
+    "word": "uncle",
+    "pronunciation": "[ˈʌŋkl]",
+    "meaning": "dayı",
+    "isLearn": false
+  },
+  {
+    "word": "veterinarian",
+    "pronunciation": "[ˌvetərɪˈneəriən]",
+    "meaning": "baytar",
+    "isLearn": false
+  },
+  {
+    "word": "waiter",
+    "pronunciation": "[ˈweɪtər]",
+    "meaning": "ofisiant",
+    "isLearn": false
+  },
+  {
+    "word": "explorer",
+    "pronunciation": "[ɪkˈsplɔːrər]",
+    "meaning": "kəşfiyyatçı",
+    "isLearn": false
+  },
+  {
+    "word": "zoologist",
+    "pronunciation": "[zuːˈɒlədʒɪst]",
+    "meaning": "zooloq",
+    "isLearn": false
+  },
+  {
+    "word": "airplane",
+    "pronunciation": "[ˈeəpleɪn]",
+    "meaning": "təyyarə",
+    "isLearn": false
+  },
+  {
+    "word": "bicycle",
+    "pronunciation": "[ˈbaɪsɪkl]",
+    "meaning": "velosiped",
+    "isLearn": false
+  },
+  {
+    "word": "car",
+    "pronunciation": "[kɑːr]",
+    "meaning": "maşın",
+    "isLearn": false
+  },
+  {
+    "word": "doll",
+    "pronunciation": "[dɒl]",
+    "meaning": "kukla",
+    "isLearn": false
+  },
+  {
+    "word": "fridge",
+    "pronunciation": "[frɪdʒ]",
+    "meaning": "soyuducu",
+    "isLearn": false
+  },
+  {
+    "word": "guitar",
+    "pronunciation": "[ɡɪˈtɑːr]",
+    "meaning": "gitara",
+    "isLearn": false
+  },
+  {
+    "word": "helicopter",
+    "pronunciation": "[ˈhelɪkɒptər]",
+    "meaning": "vertolyot",
+    "isLearn": false
+  },
+  {
+    "word": "internet",
+    "pronunciation": "[ˈɪntənet]",
+    "meaning": "internet",
+    "isLearn": false
+  },
+  {
+    "word": "kettle",
+    "pronunciation": "[ˈketl]",
+    "meaning": "çaydan",
+    "isLearn": false
+  },
+  {
+    "word": "laptop",
+    "pronunciation": "[ˈlæptɒp]",
+    "meaning": "noutbuk",
+    "isLearn": false
+  },
+  {
+    "word": "motorcycle",
+    "pronunciation": "[ˈməʊtəsaɪkl]",
+    "meaning": "motosiklet",
+    "isLearn": false
+  },
+  {
+    "word": "newspaper",
+    "pronunciation": "[ˈnjuːzpeɪpər]",
+    "meaning": "qəzet",
+    "isLearn": false
+  },
+  {
+    "word": "oven",
+    "pronunciation": "[ˈʌvn]",
+    "meaning": "soba",
+    "isLearn": false
+  },
+  {
+    "word": "phone",
+    "pronunciation": "[fəʊn]",
+    "meaning": "telefon",
+    "isLearn": false
+  },
+  {
+    "word": "radio",
+    "pronunciation": "[ˈreɪdiəʊ]",
+    "meaning": "radio",
+    "isLearn": false
+  },
+  {
+    "word": "ship",
+    "pronunciation": "[ʃɪp]",
+    "meaning": "gəmi",
+    "isLearn": false
+  },
+  {
+    "word": "television",
+    "pronunciation": "[ˈtelɪvɪʒn]",
+    "meaning": "televizor",
+    "isLearn": false
+  },
+  {
+    "word": "violin",
+    "pronunciation": "[ˌvaɪəˈlɪn]",
+    "meaning": "skripka",
+    "isLearn": false
+  },
+  {
+    "word": "watch",
+    "pronunciation": "[wɒtʃ]",
+    "meaning": "saat",
+    "isLearn": false
+  },
+  {
+    "word": "zipper",
+    "pronunciation": "[ˈzɪpər]",
+    "meaning": "fermuar",
+    "isLearn": false
+  },
+  {
+    "word": "clever",
+    "pronunciation": "[ˈklevər]",
+    "meaning": "ağıllı",
+    "isLearn": false
+  },
+  {
+    "word": "dizzy",
+    "pronunciation": "[ˈdɪzi]",
+    "meaning": "başgicəllənmə",
+    "isLearn": false
+  },
+  {
+    "word": "friendly",
+    "pronunciation": "[ˈfrendli]",
+    "meaning": "dostcanlı",
+    "isLearn": false
+  },
+  {
+    "word": "generous",
+    "pronunciation": "[ˈdʒenərəs]",
+    "meaning": "səxavətli",
+    "isLearn": false
+  },
+  {
+    "word": "happy",
+    "pronunciation": "[ˈhæpi]",
+    "meaning": "xoşbəxt",
+    "isLearn": false
+  },
+  {
+    "word": "jealous",
+    "pronunciation": "[ˈdʒeləs]",
+    "meaning": "qısqanc",
+    "isLearn": false
+  },
+  {
+    "word": "kind",
+    "pronunciation": "[kaɪnd]",
+    "meaning": "mehriban",
+    "isLearn": false
+  },
+  {
+    "word": "mad",
+    "pronunciation": "[mæd]",
+    "meaning": "dəli",
+    "isLearn": false
+  },
+  {
+    "word": "nervous",
+    "pronunciation": "[ˈnɜːvəs]",
+    "meaning": "əsəbi",
+    "isLearn": false
+  },
+  {
+    "word": "old",
+    "pronunciation": "[əʊld]",
+    "meaning": "qoca",
+    "isLearn": false
+  },
+  {
+    "word": "quick",
+    "pronunciation": "[kwɪk]",
+    "meaning": "sürətli",
+    "isLearn": false
+  },
+  {
+    "word": "tired",
+    "pronunciation": "[ˈtaɪəd]",
+    "meaning": "yorğun",
+    "isLearn": false
+  },
+  {
+    "word": "upset",
+    "pronunciation": "[ʌpˈset]",
+    "meaning": "narahat",
+    "isLearn": false
+  },
+  {
+    "word": "victorious",
+    "pronunciation": "[vɪkˈtɔːriəs]",
+    "meaning": "qələbəli",
+    "isLearn": false
+  },
+  {
+    "word": "wise",
+    "pronunciation": "[waɪz]",
+    "meaning": "müdrik",
+    "isLearn": false
+  },
+  {
+    "word": "young",
+    "pronunciation": "[jʌŋ]",
+    "meaning": "gənc",
+    "isLearn": false
+  },
+  {
+    "word": "zany",
+    "pronunciation": "[ˈzeɪni]",
+    "meaning": "gülməli",
+    "isLearn": false
+  },
+  {
+    "word": "always",
+    "pronunciation": "[ˈɔːlweɪz]",
+    "meaning": "həmişə",
+    "isLearn": false
+  },
+  {
+    "word": "badly",
+    "pronunciation": "[ˈbædli]",
+    "meaning": "pis",
+    "isLearn": false
+  },
+  {
+    "word": "carefully",
+    "pronunciation": "[ˈkeəfəli]",
+    "meaning": "diqqətlə",
+    "isLearn": false
+  },
+  {
+    "word": "daily",
+    "pronunciation": "[ˈdeɪli]",
+    "meaning": "gündəlik",
+    "isLearn": false
+  },
+  {
+    "word": "early",
+    "pronunciation": "[ˈɜːli]",
+    "meaning": "tez",
+    "isLearn": false
+  },
+  {
+    "word": "fast",
+    "pronunciation": "[fɑːst]",
+    "meaning": "sürətli",
+    "isLearn": false
+  },
+  {
+    "word": "gently",
+    "pronunciation": "[ˈdʒentli]",
+    "meaning": "nəzakətlə",
+    "isLearn": false
+  },
+  {
+    "word": "happily",
+    "pronunciation": "[ˈhæpɪli]",
+    "meaning": "xoşbəxtliklə",
+    "isLearn": false
+  },
+  {
+    "word": "just",
+    "pronunciation": "[dʒʌst]",
+    "meaning": "yalnız",
+    "isLearn": false
+  },
+  {
+    "word": "kindly",
+    "pronunciation": "[ˈkaɪndli]",
+    "meaning": "xahişlə",
+    "isLearn": false
+  },
+  {
+    "word": "loudly",
+    "pronunciation": "[ˈlaʊdli]",
+    "meaning": "ucadan",
+    "isLearn": false
+  },
+  {
+    "word": "mostly",
+    "pronunciation": "[ˈməʊstli]",
+    "meaning": "əsasən",
+    "isLearn": false
+  },
+  {
+    "word": "nearly",
+    "pronunciation": "[ˈnɪəli]",
+    "meaning": "demək olar ki",
+    "isLearn": false
+  },
+  {
+    "word": "often",
+    "pronunciation": "[ˈɒfn]",
+    "meaning": "tez-tez",
+    "isLearn": false
+  },
+  {
+    "word": "probably",
+    "pronunciation": "[ˈprɒbəbli]",
+    "meaning": "yəqin ki",
+    "isLearn": false
+  },
+  {
+    "word": "rarely",
+    "pronunciation": "[ˈreəli]",
+    "meaning": "nadir hallarda",
+    "isLearn": false
+  },
+  {
+    "word": "sometimes",
+    "pronunciation": "[ˈsʌmtaɪmz]",
+    "meaning": "bəzən",
+    "isLearn": false
+  },
+  {
+    "word": "together",
+    "pronunciation": "[təˈɡeðər]",
+    "meaning": "birlikdə",
+    "isLearn": false
+  },
+  {
+    "word": "usually",
+    "pronunciation": "[ˈjuːʒuəli]",
+    "meaning": "adətən",
+    "isLearn": false
+  },
+  {
+    "word": "very",
+    "pronunciation": "[ˈveri]",
+    "meaning": "çox",
+    "isLearn": false
+  },
+  {
+    "word": "well",
+    "pronunciation": "[wel]",
+    "meaning": "yaxşı",
+    "isLearn": false
+  },
+  {
+    "word": "yesterday",
+    "pronunciation": "[ˈjestədeɪ]",
+    "meaning": "dünən",
+    "isLearn": false
+  },
+  {
+    "word": "above",
+    "pronunciation": "[əˈbʌv]",
+    "meaning": "yuxarıda",
+    "isLearn": false
+  },
+  {
+    "word": "below",
+    "pronunciation": "[bɪˈləʊ]",
+    "meaning": "aşağıda",
+    "isLearn": false
+  },
+  {
+    "word": "between",
+    "pronunciation": "[bɪˈtwiːn]",
+    "meaning": "arasında",
+    "isLearn": false
+  },
+  {
+    "word": "during",
+    "pronunciation": "[ˈdjʊərɪŋ]",
+    "meaning": "zamanı",
+    "isLearn": false
+  },
+  {
+    "word": "except",
+    "pronunciation": "[ɪkˈsept]",
+    "meaning": "istisna olmaqla",
+    "isLearn": false
+  },
+  {
+    "word": "for",
+    "pronunciation": "[fɔːr]",
+    "meaning": "üçün",
+    "isLearn": false
+  },
+  {
+    "word": "inside",
+    "pronunciation": "[ɪnˈsaɪd]",
+    "meaning": "daxildə",
+    "isLearn": false
+  },
+  {
+    "word": "near",
+    "pronunciation": "[nɪər]",
+    "meaning": "yaxın",
+    "isLearn": false
+  },
+  {
+    "word": "outside",
+    "pronunciation": "[ˌaʊtˈsaɪd]",
+    "meaning": "xaricdə",
+    "isLearn": false
+  },
+  {
+    "word": "through",
+    "pronunciation": "[θruː]",
+    "meaning": "vasitəsilə",
+    "isLearn": false
+  },
+  {
+    "word": "toward",
+    "pronunciation": "[təˈwɔːd]",
+    "meaning": "doğru",
+    "isLearn": false
+  },
+  {
+    "word": "under",
+    "pronunciation": "[ˈʌndər]",
+    "meaning": "altında",
+    "isLearn": false
+  },
+  {
+    "word": "until",
+    "pronunciation": "[ənˈtɪl]",
+    "meaning": "qədər",
+    "isLearn": false
+  },
+  {
+    "word": "without",
+    "pronunciation": "[wɪˈðaʊt]",
+    "meaning": "olmadan",
+    "isLearn": false
+  },
+  {
+    "word": "about",
+    "pronunciation": "[əˈbaʊt]",
+    "meaning": "haqqında",
+    "isLearn": false
+  },
+  {
+    "word": "after",
+    "pronunciation": "[ˈɑːftər]",
+    "meaning": "sonra",
+    "isLearn": false
+  },
+  {
+    "word": "before",
+    "pronunciation": "[bɪˈfɔːr]",
+    "meaning": "əvvəl",
+    "isLearn": false
+  },
+  {
+    "word": "behind",
+    "pronunciation": "[bɪˈhaɪnd]",
+    "meaning": "arxasında",
+    "isLearn": false
+  },
+  {
+    "word": "by",
+    "pronunciation": "[baɪ]",
+    "meaning": "tərəfindən",
+    "isLearn": false
+  },
+  {
+    "word": "down",
+    "pronunciation": "[daʊn]",
+    "meaning": "aşağı",
+    "isLearn": false
+  },
+  {
+    "word": "from",
+    "pronunciation": "[frɒm]",
+    "meaning": "dan",
+    "isLearn": false
+  },
+  {
+    "word": "in",
+    "pronunciation": "[ɪn]",
+    "meaning": "içində",
+    "isLearn": false
+  },
+  {
+    "word": "off",
+    "pronunciation": "[ɒf]",
+    "meaning": "off",
+    "isLearn": false
+  },
+  {
+    "word": "on",
+    "pronunciation": "[ɒn]",
+    "meaning": "üzərində",
+    "isLearn": false
+  },
+  {
+    "word": "over",
+    "pronunciation": "[ˈəʊvər]",
+    "meaning": "üzərində",
+    "isLearn": false
+  },
+  {
+    "word": "up",
+    "pronunciation": "[ʌp]",
+    "meaning": "yuxarı",
+    "isLearn": false
+  },
+  {
+    "word": "with",
+    "pronunciation": "[wɪð]",
+    "meaning": "ilə",
+    "isLearn": false
+  },
+  {
+    "word": "and",
+    "pronunciation": "[ænd]",
+    "meaning": "və",
+    "isLearn": false
+  },
+  {
+    "word": "but",
+    "pronunciation": "[bʌt]",
+    "meaning": "amma",
+    "isLearn": false
+  },
+  {
+    "word": "or",
+    "pronunciation": "[ɔːr]",
+    "meaning": "və ya",
+    "isLearn": false
+  },
+  {
+    "word": "so",
+    "pronunciation": "[səʊ]",
+    "meaning": "belə ki",
+    "isLearn": false
+  },
+  {
+    "word": "yet",
+    "pronunciation": "[jet]",
+    "meaning": "hələ",
+    "isLearn": false
+  },
+  {
+    "word": "because",
+    "pronunciation": "[bɪˈkɒz]",
+    "meaning": "çünki",
+    "isLearn": false
+  },
+  {
+    "word": "if",
+    "pronunciation": "[ɪf]",
+    "meaning": "əgər",
+    "isLearn": false
+  },
+  {
+    "word": "unless",
+    "pronunciation": "[ənˈles]",
+    "meaning": "əks halda",
+    "isLearn": false
+  },
+  {
+    "word": "although",
+    "pronunciation": "[ɔːlˈðəʊ]",
+    "meaning": "baxmayaraq ki",
+    "isLearn": false
+  },
+  {
+    "word": "since",
+    "pronunciation": "[sɪns]",
+    "meaning": "bəri",
+    "isLearn": false
+  },
+  {
+    "word": "so that",
+    "pronunciation": "[səʊ ðæt]",
+    "meaning": "belə ki",
+    "isLearn": false
+  },
+  {
+    "word": "after",
+    "pronunciation": "[ˈɑːftə]",
+    "meaning": "sonra",
+    "isLearn": false
+  },
+  {
+    "word": "before",
+    "pronunciation": "[bɪˈfɔː]",
+    "meaning": "əvvəl",
+    "isLearn": false
+  },
+  {
+    "word": "when",
+    "pronunciation": "[wen]",
+    "meaning": "nə zaman",
+    "isLearn": false
+  },
+  {
+    "word": "whenever",
+    "pronunciation": "[wenˈevə]",
+    "meaning": "nə zaman ki",
+    "isLearn": false
+  },
+  {
+    "word": "where",
+    "pronunciation": "[weə]",
+    "meaning": "harada",
+    "isLearn": false
+  },
+  {
+    "word": "wherever",
+    "pronunciation": "[weərˈevə]",
+    "meaning": "hara ki",
+    "isLearn": false
+  },
+  {
+    "word": "whether",
+    "pronunciation": "[ˈweðə]",
+    "meaning": "olub-olmadığını",
+    "isLearn": false
+  },
+  {
+    "word": "while",
+    "pronunciation": "[waɪl]",
+    "meaning": "iken",
+    "isLearn": false
+  },
+  {
+    "word": "what",
+    "pronunciation": "[wɒt]",
+    "meaning": "nə",
+    "isLearn": false
+  },
+  {
+    "word": "whatever",
+    "pronunciation": "[wɒtˈevə]",
+    "meaning": "nə ki",
+    "isLearn": false
+  },
+  {
+    "word": "which",
+    "pronunciation": "[wɪtʃ]",
+    "meaning": "hansı",
+    "isLearn": false
+  },
+  {
+    "word": "whichever",
+    "pronunciation": "[wɪtʃˈevə]",
+    "meaning": "hansı ki",
+    "isLearn": false
+  },
+  {
+    "word": "who",
+    "pronunciation": "[huː]",
+    "meaning": "kim",
+    "isLearn": false
+  },
+  {
+    "word": "whoever",
+    "pronunciation": "[huːˈevə]",
+    "meaning": "kim ki",
+    "isLearn": false
+  },
+  {
+    "word": "whom",
+    "pronunciation": "[huːm]",
+    "meaning": "kimi",
+    "isLearn": false
+  },
+  {
+    "word": "whomever",
+    "pronunciation": "[huːmˈevə]",
+    "meaning": "kimi ki",
+    "isLearn": false
+  },
+  {
+    "word": "whose",
+    "pronunciation": "[huːz]",
+    "meaning": "kimin",
+    "isLearn": false
+  },
+  {
+    "word": "why",
+    "pronunciation": "[waɪ]",
+    "meaning": "niyə",
+    "isLearn": false
+  },
+  {
+    "word": "how",
+    "pronunciation": "[haʊ]",
+    "meaning": "necə",
+    "isLearn": false
+  },
+  {
+    "word": "however",
+    "pronunciation": "[haʊˈevə]",
+    "meaning": "lakin",
+    "isLearn": false
+  },
+  {
+    "word": "while",
+    "pronunciation": "[waɪl]",
+    "meaning": "iken",
+    "isLearn": false
+  },
+  {
+    "word": "who",
+    "pronunciation": "[huː]",
+    "meaning": "kim",
+    "isLearn": false
+  },
+  {
+    "word": "whoever",
+    "pronunciation": "[huːˈevə]",
+    "meaning": "kim ki",
+    "isLearn": false
+  },
+  {
+    "word": "whom",
+    "pronunciation": "[huːm]",
+    "meaning": "kimi",
+    "isLearn": false
+  },
+  {
+    "word": "whomever",
+    "pronunciation": "[huːmˈevə]",
+    "meaning": "kimi ki",
+    "isLearn": false
+  },
+  {
+    "word": "whose",
+    "pronunciation": "[huːz]",
+    "meaning": "kimin",
+    "isLearn": false
+  },
+  {
+    "word": "why",
+    "pronunciation": "[waɪ]",
+    "meaning": "niyə",
+    "isLearn": false
+  }
+]

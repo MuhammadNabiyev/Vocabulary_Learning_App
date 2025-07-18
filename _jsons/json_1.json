@@ -543,37 +543,37 @@
     "word": "be in pain",
     "pronunciation": "[bi: m pem]",
     "meaning": "ağrımaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "break a leg",
     "pronunciation": "[breɪk ə leg]",
     "meaning": "ayağını sındırmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "bring back",
     "pronunciation": "[brɪŋ bæk]",
     "meaning": "geri gətirmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "butterfly",
     "pronunciation": "['bʌtaflaɪ]",
     "meaning": "kəpənək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "call for help",
     "pronunciation": "[ko:l fo: help]",
     "meaning": "köməyə çağırmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "comet",
     "pronunciation": "['komɪt]",
     "meaning": "kometa; quyruqlu ulduz",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "cute",
@@ -597,7 +597,7 @@
     "word": "fall into a pool",
     "pronunciation": "[fo:l 'mtu: ə' pu:l]",
     "meaning": "hovuza düşmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "farm",
@@ -609,13 +609,13 @@
     "word": "fortunately",
     "pronunciation": "['fo:jʃənətlɪ]",
     "meaning": "yaxşı ki, xoşbəxtlikdən",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "guess",
     "pronunciation": "[ges]",
     "meaning": "təxmin etmək; təxmin",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "hero",
@@ -627,7 +627,7 @@
     "word": "hire",
     "pronunciation": "['haɪə]",
     "meaning": "kirayələmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "island",
@@ -657,7 +657,7 @@
     "word": "make barbecue",
     "pronunciation": "[merk 'bɑ:bɪkjʊ:]",
     "meaning": "kabab hazırlamaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pick up",
@@ -675,37 +675,37 @@
     "word": "put up the tent",
     "pronunciation": "[pot Ap ðə tent]",
     "meaning": "çadır qurmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "rent a boat",
     "pronunciation": "[rent ə boʊt]",
     "meaning": "qayıq icarəyə götürmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "ride a boat",
     "pronunciation": "[raid ə boʊt]",
     "meaning": "qayıq sürmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "sail a boat",
     "pronunciation": "[seil ə boʊt]",
     "meaning": "qayıqla üzmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "save a life",
     "pronunciation": "[serv a laɪf]",
     "meaning": "həyatını xilas etmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "shout",
     "pronunciation": "[faʊt]",
     "meaning": "qışqırmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "side",
@@ -717,19 +717,19 @@
     "word": "stay in a hotel",
     "pronunciation": "[ster in ə haʊ'tel]",
     "meaning": "oteldə qalmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "suddenly",
     "pronunciation": "['sʌdnɪi]",
     "meaning": "qəflətən",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "swan",
     "pronunciation": "[swɒn]",
     "meaning": "qu quşu",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "tail",
@@ -741,13 +741,13 @@
     "word": "till",
     "pronunciation": "til",
     "meaning": "...-a/-ə qədər",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "unfortunately",
     "pronunciation": "[ʌn'fə:jʃɔnɪtlɪ]",
     "meaning": "bədbəxtlikdən; təəssüf ki",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "unluckily",
@@ -771,13 +771,13 @@
     "word": "aquarium",
     "pronunciation": "[ə’kwærəm]",
     "meaning": "akvarium",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "behave",
     "pronunciation": "[br’heiv]",
     "meaning": "davranmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "big eaters",
@@ -813,7 +813,7 @@
     "word": "contest",
     "pronunciation": "['kɒntest]",
     "meaning": "yarış, müsabiqə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "dog breed",
@@ -825,31 +825,31 @@
     "word": "domestic animals",
     "pronunciation": "[dəʊ’mestɪk ’ænıməlz]",
     "meaning": "ev heyvanları",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "fingerprint",
     "pronunciation": "['fɪŋgəprɪnt]",
     "meaning": "barmaq izi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "freeze",
     "pronunciation": "[fri:z]",
     "meaning": "dondurmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "golf club",
     "pronunciation": "[golf klʌb]",
-    "meaning": "golf zopası",
-    "isLearn": false
+    "meaning": "golf kulubu",
+    "isLearn": true
   },
   {
     "word": "hedgehog",
     "pronunciation": "['hedʒhɒg]",
     "meaning": "kirpi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "huge",
@@ -861,73 +861,73 @@
     "word": "iguana",
     "pronunciation": "[i’gwɑ:nə]",
     "meaning": "iguana",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "kiwi",
     "pronunciation": "['ki:wi:]",
     "meaning": "kivi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "lazy",
     "pronunciation": "['leızı]",
     "meaning": "tənbəl",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "leopard",
     "pronunciation": "['lepəd]",
     "meaning": "bəbir",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "lift",
     "pronunciation": "[lift]",
     "meaning": "qaldırmaq, götürmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "loyal",
     "pronunciation": "['loıəl]",
     "meaning": "sadiq, vəfalı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "messy",
     "pronunciation": "['mesı]",
     "meaning": "kirli, çirkli",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "mosque",
     "pronunciation": "[mɒsk]",
     "meaning": "məscid",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "naughty",
     "pronunciation": "['no:tı]",
-    "meaning": "dəyəsən, şıltaq",
-    "isLearn": false
+    "meaning": "nadinc, yaramaz",
+    "isLearn": true
   },
   {
     "word": "noisy",
     "pronunciation": "['noizı]",
-    "meaning": "şəsli-küylü",
-    "isLearn": false
+    "meaning": "səs-küylü",
+    "isLearn": true
   },
   {
     "word": "owl",
     "pronunciation": "[aoı]",
     "meaning": "bayquş",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "owner",
     "pronunciation": "['əʊnə]",
     "meaning": "sahib, yiyə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pet",
@@ -993,37 +993,37 @@
     "word": "tarantula",
     "pronunciation": "[tə’remjiolə]",
     "meaning": "tarantul (zəhərli hörümçək)",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "tiny",
     "pronunciation": "['taɪm]",
-    "meaning": "barbalaca",
-    "isLearn": false
+    "meaning": "balaca, kiçik",
+    "isLearn": true
   },
   {
     "word": "tip of something",
     "pronunciation": "[tip av ’sʌmθın]",
     "meaning": "bir şeyin ucu",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "trained",
     "pronunciation": "[treɪnd]",
     "meaning": "təlim keçmiş",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "unique",
     "pronunciation": "[ju:'ni:k]",
     "meaning": "təkrarsız, unikal",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "wave",
     "pronunciation": "[werv]",
     "meaning": "əl yelləmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "anybody",
@@ -1047,163 +1047,109 @@
     "word": "backache",
     "pronunciation": "['bækeik]",
     "meaning": "bel ağrısı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "be cold",
     "pronunciation": "[bi: kəold]",
     "meaning": "üşümək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "be passive",
     "pronunciation": "[bi: 'pæsɪv]",
     "meaning": "passiv olmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "believe",
     "pronunciation": "[bi'li:v]",
     "meaning": "inanmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "Best wishes!",
     "pronunciation": "[best wɪʃɪz]",
     "meaning": "Ən xoş arzularla!",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "effective",
     "pronunciation": "[ɪˈfektɪv]",
     "meaning": "səmərəli, effektiv",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "everybody",
     "pronunciation": "['evribɒdi]",
     "meaning": "hamı, hər kəs",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "everything",
     "pronunciation": "['evriθɪŋ]",
     "meaning": "hər şey",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "everywhere",
     "pronunciation": "['evruveə]",
     "meaning": "hər yerdə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "get ill",
     "pronunciation": "[get il]",
     "meaning": "xəstələnmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "go for a walk",
     "pronunciation": "[goʊ fɔ: o wɔ:k]",
     "meaning": "gəzintiyə getmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "have a cough",
     "pronunciation": "[hæv α' knʃ]",
     "meaning": "öskürmək",
-    "isLearn": false
-  },
-  {
-    "word": "have a sore throat",
-    "pronunciation": "[hæv α'sɔ: θrəʊt]",
-    "meaning": "boğazı ağrımaq",
-    "isLearn": false
-  },
-  {
-    "word": "have a stomachache",
-    "pronunciation": "[hæv α'stʌmək, eɪk]",
-    "meaning": "mədəsi ağrımaq",
-    "isLearn": false
-  },
-  {
-    "word": "have a temperature",
-    "pronunciation": "[hæv α'temp(ə)rəɡfə]",
-    "meaning": "qızdırması olmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "have the flu",
     "pronunciation": "[hæv ôə'flu:]",
     "meaning": "qrip olmaq",
-    "isLearn": false
-  },
-  {
-    "word": "headache",
-    "pronunciation": "['hedeɪk]",
-    "meaning": "baş ağrısı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "health",
     "pronunciation": "[helθ]",
     "meaning": "sağlamlıq",
-    "isLearn": false
-  },
-  {
-    "word": "healthy diet",
-    "pronunciation": "['helθι'daɪət]",
-    "meaning": "sağlam qidalanma rejimi",
-    "isLearn": false
-  },
-  {
-    "word": "healthy lifestyle",
-    "pronunciation": "['helθι'lɑːfstaɪl]",
-    "meaning": "sağlam həyat tərzi",
-    "isLearn": false
-  },
-  {
-    "word": "hug",
-    "pronunciation": "[hʌg]",
-    "meaning": "bağrına basmaq, qucaqlamaq",
-    "isLearn": false
-  },
-  {
-    "word": "keep someone busy",
-    "pronunciation": "[ki:p 'sʌmwʌn'bızı]",
-    "meaning": "birini məşğul etmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "leather",
     "pronunciation": "['leðə]",
     "meaning": "dəri",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "light a candle",
     "pronunciation": "[latı o 'kændəl]",
     "meaning": "şam yandırmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "material",
     "pronunciation": "[mə'torrəl]",
     "meaning": "material, parça",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "midnight",
     "pronunciation": "['mɪdnətt]",
     "meaning": "gecə yarısı",
-    "isLearn": false
-  },
-  {
-    "word": "overweight",
-    "pronunciation": "['əʊvəweɪt]",
-    "meaning": "artıq çəkili",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "a pair of shoes",
@@ -1215,127 +1161,103 @@
     "word": "project",
     "pronunciation": "['prɒdʒekt]",
     "meaning": "layihə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "Regards!",
     "pronunciation": "[ri'ɡɑ:dz]",
     "meaning": "Salamlar / Hörmətlər!",
-    "isLearn": false
-  },
-  {
-    "word": "relax your mind",
-    "pronunciation": "[ri'leks jə manɪd]",
-    "meaning": "zehninizi boşaldın",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "See you soon!",
     "pronunciation": "['si: jə su:n]",
     "meaning": "Hələlik!",
-    "isLearn": false
-  },
-  {
-    "word": "shoemaker",
-    "pronunciation": "['ju:meɪkə]",
-    "meaning": "çəkməçi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "somebody",
     "pronunciation": "['sʌmbədi]",
     "meaning": "kimsə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "something",
     "pronunciation": "['sʌmθɪŋ]",
     "meaning": "nəsə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "somewhere",
     "pronunciation": "['sʌmveeə]",
     "meaning": "harasa",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "Take care!",
     "pronunciation": "[teɪk keə]",
     "meaning": "Özündən müğayət ol!",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "take a medicine",
     "pronunciation": "[teɪk α'medsɪn]",
     "meaning": "dərman qəbul etmək",
-    "isLearn": false
-  },
-  {
-    "word": "thermometer",
-    "pronunciation": "[θə'mɒmtə]",
-    "meaning": "termometr",
-    "isLearn": false
-  },
-  {
-    "word": "toothache",
-    "pronunciation": "['tu:θεɪk]",
-    "meaning": "diş ağrısı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "unhealthy",
     "pronunciation": "[ʌn'helθι]",
     "meaning": "qeyri-sağlam, xəstə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "What’s the matter",
     "pronunciation": "[ˈwɒts ôəˈmætə]",
     "meaning": "Nə məsələdir? nə olub?",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "bamboo",
     "pronunciation": "[bæmˈbuː]",
     "meaning": "bambuk",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "be in danger",
     "pronunciation": "[biː mˈdemdʒə]",
     "meaning": "təhlükədə olmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "bucket",
     "pronunciation": "[ˈbʌktɪ]",
     "meaning": "vedrə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "by myself",
     "pronunciation": "[barˈmarˈself]",
     "meaning": "təkbaşıma (mən)",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "cloth bag",
     "pronunciation": "[khoˈbag]",
     "meaning": "parça çanta",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "crown",
     "pronunciation": "[kraʊn]",
     "meaning": "tac",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "cut down trees",
     "pronunciation": "[katˈdaʊn triːz]",
     "meaning": "ağacları kəsmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "dream",
@@ -1347,229 +1269,211 @@
     "word": "education",
     "pronunciation": "[edʒʊˈkeɪʃ(ə)n]",
     "meaning": "təhsil",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "endangered",
     "pronunciation": "[mˈdemdʒəd]",
     "meaning": "nəsli kəsilməkdə olan",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "fact",
     "pronunciation": "[fækt]",
     "meaning": "fakt",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "forest fire",
     "pronunciation": "[ˈfɒrɪstˈfaɪə]",
     "meaning": "meşə yanğını",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "gather",
     "pronunciation": "[ˈɡæðə]",
     "meaning": "toplamaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "hard life",
     "pronunciation": "[haːdˈlɑːf]",
     "meaning": "çətin həyat",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "hide and seek",
     "pronunciation": "[haɪdˈændˈsiːk]",
     "meaning": "gizlənqaç (oyunu)",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "hurt",
     "pronunciation": "[hɜːt]",
     "meaning": "incitmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "hunt animals",
     "pronunciation": "[hʌntˈænɪmalz]",
     "meaning": "heyvanları ovlamaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "in my opinion",
     "pronunciation": "[mˈmaɪˈəˈpɪnjən]",
     "meaning": "zənnimcə, fikrimcə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "inform",
     "pronunciation": "[mˈfoːm]",
     "meaning": "məlumat vermək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "king",
     "pronunciation": "[kɪŋ]",
     "meaning": "kral",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "landfill",
     "pronunciation": "[ˈlændflɪ]",
     "meaning": "zibilxana",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "oxygen",
     "pronunciation": "[ˈɔksɪdʒ(ə)n]",
     "meaning": "oksigen",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pack",
     "pronunciation": "[peɪk]",
     "meaning": "qablaşdırmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "paper bag",
     "pronunciation": "[ˈpeɪpəˈbag]",
     "meaning": "kağız çanta",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "planet",
     "pronunciation": "[ˈplæntɪ]",
     "meaning": "planet",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "plant trees",
     "pronunciation": "[plɑːnt triːz]",
     "meaning": "ağaclar əkmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "plastic",
     "pronunciation": "[ˈplæstɪk]",
     "meaning": "plastik",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pollute",
     "pronunciation": "[pəˈluːt]",
     "meaning": "çirkləndirmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "polluted",
     "pronunciation": "[pəˈluːtɪd]",
     "meaning": "çirkli",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "protect",
     "pronunciation": "[prəˈtekɪ]",
     "meaning": "qorumaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "quickly",
     "pronunciation": "[ˈkwɪklɪ]",
     "meaning": "cəld, sürətlə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "save",
     "pronunciation": "[seɪv]",
-    "meaning": "qənaət etmək",
-    "isLearn": false
-  },
-  {
-    "word": "save the planet",
-    "pronunciation": "[seɪv ôəˈplæntɪ]",
-    "meaning": "planeti xilas etmək",
-    "isLearn": false
+    "meaning": "saxla ,qənaət etmək",
+    "isLearn": true
   },
   {
     "word": "shade",
     "pronunciation": "[ʃerd]",
     "meaning": "kölgə",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "shark",
     "pronunciation": "[ʃɑːk]",
     "meaning": "köpək balığı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "skin",
     "pronunciation": "[skɪn]",
     "meaning": "dəri",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "sleepy",
     "pronunciation": "[ˈslɪːpɪ]",
     "meaning": "yuxulu",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "slowly",
     "pronunciation": "[ˈsləʊlɪ]",
     "meaning": "yavaş-yavaş; asta",
-    "isLearn": false
-  },
-  {
-    "word": "support your opinion",
-    "pronunciation": "[səˈpɔːt jɔːˈəˈpɪnjən]",
-    "meaning": "fikrinizi dəstəkləyin",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "take care of",
     "pronunciation": "[teɪk keəˈnv]",
     "meaning": "qayğısına qalmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "The Earth",
     "pronunciation": "[ðiˈs:θ]",
     "meaning": "Yer",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "thirsty",
     "pronunciation": "[ˈθɜːsti]",
     "meaning": "susuz",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "throw litter",
     "pronunciation": "[θrəʊˈlɪtə]",
     "meaning": "zibil atmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "trunk",
     "pronunciation": "[trʌŋk]",
-    "meaning": "xortum; gövdə",
-    "isLearn": false
-  },
-  {
-    "word": "turn off the tap",
-    "pronunciation": "['tɔ:n'ɒf ôə tæp]",
-    "meaning": "su kranı bağlamaq",
-    "isLearn": false
+    "meaning": "gövdə",
+    "isLearn": true
   },
   {
     "word": "whale",
     "pronunciation": "[weɪl]",
     "meaning": "balina",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "alone",
@@ -1584,213 +1488,141 @@
     "isLearn": true
   },
   {
-    "word": "arrive at the airport",
-    "pronunciation": "[ə'nɪv aet ôi: 'eəpɔ:t]",
-    "meaning": "hava limanına çatmaq",
-    "isLearn": false
-  },
-  {
-    "word": "book a hotel",
-    "pronunciation": "[bok a həʊ'tel]",
-    "meaning": "oteldə yer sifariş etmək",
-    "isLearn": false
-  },
-  {
-    "word": "book the flight",
-    "pronunciation": "[bok ôə flatt]",
-    "meaning": "təyyarəyə bilet sifariş etmək",
-    "isLearn": false
-  },
-  {
-    "word": "by distance",
-    "pronunciation": "[baɪ 'dɪstəns]",
-    "meaning": "məsafədən, aralıdan",
-    "isLearn": false
-  },
-  {
     "word": "castle",
     "pronunciation": "['kɑ:s(ə)l]",
     "meaning": "qala",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "cotton",
     "pronunciation": "['kɒt(ə)n]",
     "meaning": "pambıq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "discover",
     "pronunciation": "[di'skʌvə]",
     "meaning": "kəşf etmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "fantastic",
     "pronunciation": "[fen'teəstɪk]",
     "meaning": "şahanə, çox gözəl",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "faraway places",
     "pronunciation": "['fɑ:rəwət plətsɪz]",
     "meaning": "uzaq yerlər",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "get on the plane",
     "pronunciation": "[get on ôə pleɪn]",
     "meaning": "təyyarəyə minmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "giant",
     "pronunciation": "['dʒʌɪənt]",
     "meaning": "nəhəng, div",
-    "isLearn": false
-  },
-  {
-    "word": "jazz music",
-    "pronunciation": "[dʒæz 'mju:zik]",
-    "meaning": "caz musiqisi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "Just imagine!",
     "pronunciation": "[dʒʌst i'mædʒɪn]",
     "meaning": "Sadəcə təsəvvür et!",
-    "isLearn": false
-  },
-  {
-    "word": "karaoke club",
-    "pronunciation": "['kærəʊkr klʌb]",
-    "meaning": "karaoke klubu",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "to land",
     "pronunciation": "[lænd]",
     "meaning": "yerə enmək",
-    "isLearn": false
-  },
-  {
-    "word": "lupine",
-    "pronunciation": "['lu:pm]",
-    "meaning": "alupin, acı paxla",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "miss a plane",
     "pronunciation": "[misə pleɪn]",
     "meaning": "təyyarəyə gecikmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "mud",
     "pronunciation": "[mʌd]",
     "meaning": "palçıq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "next",
     "pronunciation": "[neksʔ]",
     "meaning": "gələn, növbəti",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pack a suitcase",
     "pronunciation": "[pack o 'sju:tkəis]",
     "meaning": "çamadan yığmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "passport",
     "pronunciation": "['pɑ:spɔ:t]",
     "meaning": "pasport",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pay",
     "pronunciation": "[peɪ]",
     "meaning": "ödəmək",
-    "isLearn": false
-  },
-  {
-    "word": "plankton",
-    "pronunciation": "['plæŋktən]",
-    "meaning": "plankton *(kiçik dəniz canlısı)*",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "pool",
     "pronunciation": "[pu:l]",
     "meaning": "hovuz",
-    "isLearn": false
-  },
-  {
-    "word": "rock music",
-    "pronunciation": "[rok 'mju:zik]",
-    "meaning": "rok musiqisi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "sea view",
     "pronunciation": "[si: vju:]",
     "meaning": "dəniz mənzərəsi",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "search",
     "pronunciation": "[sɜ:ʃ]",
     "meaning": "axtarmaq",
-    "isLearn": false
-  },
-  {
-    "word": "shell",
-    "pronunciation": "[ʃel]",
-    "meaning": "balıqqulağı",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "take a taxi",
     "pronunciation": "[teɪk o 'teeksɪ]",
     "meaning": "taksiyə minmək",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "take off",
     "pronunciation": "['teɪk 'ɒf]",
     "meaning": "havalanmaq, uçmaq",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "tonight",
     "pronunciation": "[tə'nait]",
     "meaning": "bu axşam",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "tree house",
     "pronunciation": "[tri: haʊs]",
     "meaning": "ağac ev",
-    "isLearn": false
-  },
-  {
-    "word": "typical",
-    "pronunciation": "['tipik(ə)l]",
-    "meaning": "səciyyəvi",
-    "isLearn": false
-  },
-  {
-    "word": "volcano",
-    "pronunciation": "[vol'keɪnəʊ]",
-    "meaning": "vulkan",
-    "isLearn": false
+    "isLearn": true
   },
   {
     "word": "year-round",
     "pronunciation": "['jio raʊnd]",
     "meaning": "il boyu",
-    "isLearn": false
+    "isLearn": true
   }
 ]

@@ -11,6 +11,9 @@ import {
   FaArrowLeft,
   FaArrowRight,
   FaEye,
+  FaPlay,
+  FaPause,
+  FaStop,
 } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
 import { motion, AnimatePresence } from "framer-motion";
@@ -41,6 +44,11 @@ export default function VocabularyApp() {
   const [direction, setDirection] = useState(0);
   const [alwaysShowTooltips, setAlwaysShowTooltips] = useState(false);
   const [keyboardSelectedIndex, setKeyboardSelectedIndex] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentPlayingIndex, setCurrentPlayingIndex] = useState(0);
+  const [repeatCount, setRepeatCount] = useState(1);
+  const [utterance, setUtterance] = useState(null);
+  const [isPaused, setIsPaused] = useState(false);
 
   const swipeHandlers = useSwipeable({
     onSwipedLeft: () => {
@@ -218,50 +226,114 @@ export default function VocabularyApp() {
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  const speakText = (text) => {
+  const speakText = (text, times = 1, onFinish = () => {}) => {
     try {
       if (!("speechSynthesis" in window)) {
         throw new Error("Speech synthesis not supported");
       }
 
       window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "en-US";
-      utterance.rate = speechRate;
-      utterance.pitch = 1;
-      utterance.volume = 1;
+      const newUtterance = new SpeechSynthesisUtterance(text);
+      newUtterance.lang = "en-US";
+      newUtterance.rate = speechRate;
+      newUtterance.pitch = 1;
+      newUtterance.volume = 1;
 
       if (selectedVoice && voices.length > 0) {
         const voice = voices.find((v) => v.name === selectedVoice);
-        if (voice) utterance.voice = voice;
+        if (voice) newUtterance.voice = voice;
       }
 
-      utterance.onerror = (event) => {
+      newUtterance.onerror = (event) => {
         if (event.error !== "interrupted") {
           console.error("SpeechSynthesis Error:", event.error);
           setMessage({
             text: "Error occurred during speech synthesis",
             type: "error",
           });
+          setIsPlaying(false);
         }
       };
 
-      utterance.onend = () => {
-        console.log("Speech finished");
+      newUtterance.onend = () => {
+        if (times > 1) {
+          speakText(text, times - 1, onFinish);
+        } else {
+          onFinish();
+        }
       };
 
-      utterance.onboundary = (event) => {
-        console.log(`Boundary reached at ${event.charIndex} characters`);
-      };
-
-      window.speechSynthesis.speak(utterance);
+      setUtterance(newUtterance);
+      window.speechSynthesis.speak(newUtterance);
     } catch (error) {
       console.error("Error in speakText:", error);
       setMessage({
         text: "Speech synthesis is not supported or failed",
         type: "error",
       });
+      setIsPlaying(false);
     }
+  };
+
+  const handlePlayPause = () => {
+    if (isPlaying && !isPaused) {
+      pauseReading();
+    } else if (isPaused) {
+      resumeReading();
+    } else {
+      startReading();
+    }
+  };
+
+  const startReading = () => {
+    if (currentItems.length === 0) return;
+    setIsPlaying(true);
+    setIsPaused(false);
+    setCurrentPlayingIndex(0);
+    speakCurrentWord(0);
+  };
+
+  const speakCurrentWord = (index = currentPlayingIndex) => {
+    if (index >= currentItems.length) {
+      if (currentPage < totalPages) {
+        setDirection(1);
+        paginate(currentPage + 1);
+        setCurrentPlayingIndex(0);
+        return;
+      } else {
+        stopReading();
+        return;
+      }
+    }
+
+    const word = currentItems[index].word;
+    speakText(word, repeatCount, () => {
+      setCurrentPlayingIndex((prev) => prev + 1);
+      setTimeout(() => speakCurrentWord(prev + 1), 400);
+    });
+  };
+
+  const pauseReading = () => {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.pause();
+      setIsPaused(true);
+    }
+  };
+
+  const resumeReading = () => {
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+      setIsPaused(false);
+    }
+  };
+
+  const stopReading = () => {
+    if (window.speechSynthesis.speaking || window.speechSynthesis.paused) {
+      window.speechSynthesis.cancel();
+    }
+    setIsPlaying(false);
+    setIsPaused(false);
+    setCurrentPlayingIndex(0);
   };
 
   useEffect(() => {
@@ -342,8 +414,6 @@ export default function VocabularyApp() {
 
       if (keyMap[e.key] && keyMap[e.key] <= currentItems.length) {
         const index = keyMap[e.key] - 1;
-        console.log(index);
-        console.log(keyboardSelectedIndex);
         if (index == keyboardSelectedIndex) {
           setKeyboardSelectedIndex(-1);
         } else {
@@ -383,6 +453,12 @@ export default function VocabularyApp() {
       window.removeEventListener("keydown", handleCtrlNumberKeyPress);
     };
   }, [currentItems, toggleLearnedStatus]);
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text);
+    setMessage({ text: "Copied to clipboard!", type: "success" });
+    setTimeout(() => setMessage({ text: "", type: "" }), 2000);
+  };
 
   const pageVariants = {
     enter: (direction) => ({
@@ -580,6 +656,47 @@ export default function VocabularyApp() {
           </div>
         </div>
 
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-6 flex justify-between items-center">
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={handlePlayPause}
+              className="px-3 py-1 bg-blue-500 text-white rounded flex items-center space-x-1"
+            >
+              {isPlaying && !isPaused ? <FaPause /> : <FaPlay />}
+              <span>
+                {isPlaying && !isPaused
+                  ? "Pause"
+                  : isPaused
+                  ? "Resume"
+                  : "Play"}
+              </span>
+            </button>
+
+            {(isPlaying || isPaused) && (
+              <button
+                onClick={stopReading}
+                className="px-3 py-1 bg-red-500 text-white rounded flex items-center space-x-1"
+              >
+                <FaStop />
+                <span>Stop</span>
+              </button>
+            )}
+          </div>
+          <div className="flex items-center space-x-2">
+            <span>Repeat:</span>
+            <select
+              value={repeatCount}
+              onChange={(e) => setRepeatCount(Number(e.target.value))}
+              className="p-1 border rounded"
+            >
+              <option value="1">1x</option>
+              <option value="2">2x</option>
+              <option value="3">3x</option>
+              <option value="4">4x</option>
+            </select>
+          </div>
+        </div>
+
         {isLoading ? (
           <div className="flex justify-center items-center h-64">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
@@ -658,20 +775,14 @@ export default function VocabularyApp() {
                       >
                         <div className="col-span-5 sm:col-span-4 md:col-span-3 font-medium flex items-center gap-1 sm:gap-2">
                           <button
-                            onClick={() =>
-                              setActiveTooltip(
-                                activeTooltip === `word-${index}`
-                                  ? null
-                                  : `word-${index}`
-                              )
-                            }
+                            onClick={() => copyToClipboard(item.word)}
                             onMouseEnter={() =>
                               handleMouseEnter(`word-${index}`)
                             }
                             onMouseLeave={() =>
                               handleMouseLeave(`word-${index}`)
                             }
-                            className="relative group flex items-center focus:outline-none"
+                            className="relative group focus:outline-none"
                           >
                             {expandedSections.word ? (
                               <span className="truncate">{item.word}</span>
@@ -705,13 +816,7 @@ export default function VocabularyApp() {
 
                         <div className="col-span-5 sm:col-span-4 md:col-span-3 flex items-center">
                           <button
-                            onClick={() =>
-                              setActiveTooltip(
-                                activeTooltip === `meaning-${index}`
-                                  ? null
-                                  : `meaning-${index}`
-                              )
-                            }
+                            onClick={() => copyToClipboard(item.meaning)}
                             onMouseEnter={() =>
                               handleMouseEnter(`meaning-${index}`)
                             }
@@ -744,13 +849,7 @@ export default function VocabularyApp() {
 
                         <div className="col-span-2 sm:col-span-2 md:col-span-3 text-gray-600 dark:text-gray-400 flex items-center">
                           <button
-                            onClick={() =>
-                              setActiveTooltip(
-                                activeTooltip === `pronunciation-${index}`
-                                  ? null
-                                  : `pronunciation-${index}`
-                              )
-                            }
+                            onClick={() => copyToClipboard(item.pronunciation)}
                             onMouseEnter={() =>
                               handleMouseEnter(`pronunciation-${index}`)
                             }
